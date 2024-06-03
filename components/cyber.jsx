@@ -38,7 +38,7 @@ function Cyber() {
     },
    ];
    return (
-<div className="d-flex align-content-between flex-wrap">
+<div className="d-flex justify-content-between flex-wrap p-3">
          {items.map((e, i) => {
          return <CardBase data={e} key={i} />;
        })}
